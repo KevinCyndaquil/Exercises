@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 16px;
+    font-style: normal;
+    background-image: url("https://wallpapers-clan.com/wp-content/uploads/2024/02/aesthetic-minecraft-landscape-desktop-wallpaper-preview.jpg");
+}
+
+.calc {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.calc_frame {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50vh;
+    height: 50vh;
+    background-color: rgb(255, 253, 237);
+    border-radius: 8px;
+}
+
+.calc_frame input {
+    margin: 10px;
+    font-size: 16px;
+    width: 80%;
+}
+
+.calc_frame select {
+    margin-left: 10px;
+    width: 50%;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.calc_frame button {
+    background-color: rgb(87, 62, 230);
+    border-radius: 15px;
+    width: 30vh;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
